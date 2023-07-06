@@ -1,0 +1,64 @@
+*{
+    margin:0;
+}
+.menu-container{
+    background-color: black;
+    color:white;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.menu{
+    display:flex;
+}
+.margin{
+    margin-right:10px;
+    padding:5px;
+    font-size:18px;
+}
+.margin:hover{
+    color:aquamarine;
+    cursor:pointer;
+}
+.img-mod{
+    height:100px;
+    width:120px;
+    
+}
+.banner-img{
+    width:300px;
+}
+.banner-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    border:2px solid grey;
+    height:100vh;
+    color:white;
+    background-image: url("background.png"),
+    linear-gradient(45deg,rgb(8, 7, 7),#403c3c);
+}
+.title{
+    font-size:55px;
+    font-weight:bold;
+}
+.description{
+    font-size:18px;
+    margin:10px 0;
+}
+.btn{
+    padding:10px 20px;
+    background-color:red;
+    color:white;
+    border:none;
+    text-transform:capitalize;
+}
+.btn:hover{
+    color:red;
+    background-color:white;
+}
+
+                        /* about us section start  */
+
+.
