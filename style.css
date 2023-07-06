@@ -1,4 +1,4 @@
-*{
+body{
     margin:0;
 }
 .menu-container{
@@ -38,6 +38,9 @@
     color:white;
     background-image: url("background.png"),
     linear-gradient(45deg,rgb(8, 7, 7),#403c3c);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
     font-size:55px;
@@ -61,4 +64,47 @@
 
                         /* about us section start  */
 
-.
+.about-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:row-reverse;
+    
+}
+.about-title{
+    text-align:center;
+    text-transform:capitalize;
+}
+
+            /* service section  */
+.box{
+    background-color:black;
+    height:280px;
+    width:230px;
+    text-align:center;
+    color:white;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow: 5px 5px 10px grey
+}
+.img-sec{
+    width:70px;
+}
+.btn-service{
+    padding:10px 20px;
+    background-color:grey;
+    color:white;
+    border:none;
+    text-transform:capitalize;
+
+}
+.btn-service:hover{
+    background-color:white;
+    color:grey;
+}
+.service-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+}
